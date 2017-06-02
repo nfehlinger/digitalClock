@@ -33,80 +33,79 @@ div#analogClock{
 	transform: rotate(180deg);
 	position: relative;
 	font-family: 'Metamophous', cursive;
-
-	font-size: 20px;
+	font-size: 30px;
 }
 #labels div#one{
 	position: absolute;
 	transform-origin: center;
 	right: 25%;
-	top: 10%;
+	top: 6%;
 	color: #7f521a;
 }
 #labels div#two{
 	position: absolute;
 	right: 10%;
-	top: 25%;
+	top: 21%;
 	color: #7f521a;
 }
 #labels div#three{
 	position: absolute;
 	right: 4%;
-	top: 45%;
+	top: 40%;
 	color: #7f521a;
 }
 #labels div#four{
 	position: absolute;
 	right: 10%;
-	bottom: 25%;
+	bottom: 21%;
 	color: #7f521a;
 }
 #labels div#five{
 	position: absolute;
 	right: 25%;
-	bottom: 10%;
+	bottom: 6%;
 	color: #7f521a;
 }
 #labels div#six{
 	position: absolute;
-	left: 48%;
-	bottom: 2%;
+	left: 45%;
+	bottom: 1%;
 	color: #7f521a;
 }
 #labels div#seven{
 	position: absolute;
 	left: 25%;
-	bottom: 10%;
+	bottom: 6%;
 	color: #7f521a;
 }
 #labels div#eight{
 	position: absolute;
 	left: 10%;
-	bottom: 25%;
+	bottom: 21%;
 	color: #7f521a;
 }
 #labels div#nine{
 	position: absolute;
 	left: 4%;
-	top: 45%;
+	top: 40%;
 	color: #7f521a;
 }
 #labels div#ten{
 	position: absolute;
 	left: 10%;
-	top: 25%;
+	top: 21%;
 	color: #7f521a;
 }
 #labels div#eleven{
 	position: absolute;
 	left: 25%;
-	top: 10%;
+	top: 6%;
 	color: #7f521a;
 }
 #labels div#twelve{
 	position: absolute;
 	right: 45%;
-	top: 2%;
+	top: 1%;
 	color: #7f521a;
 }
 #analogClock div#minutes{
