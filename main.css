@@ -1,0 +1,146 @@
+div#clock{
+	display: block;
+	width: 700px;
+	color: #fff;
+	font-size: 150px;
+	margin: 50px auto 20px;
+	text-align: center;
+	font-family: 'VT323', monospace;
+	border: 20px solid #fff;
+}
+h1#message{
+	display: block;
+	width: 700px;
+	color: #fff;
+	font-size: 100px;
+	margin: 20px auto ;
+	text-align: center;
+	font-family: 'Shadows Into Light', cursive;
+}
+div#analogClock{
+	height: 300px;
+	width: 300px;
+	background-image: url("https://image.freepik.com/free-vector/wood-texture_1083-21.jpg");
+	border: 10px solid black;
+	border-radius: 50%;
+	margin: auto;
+	position: relative;
+	transform: rotate(180deg);
+}
+#analogClock div#labels{
+	height: 100%;
+	width: 100%;
+	transform: rotate(180deg);
+	position: relative;
+	font-family: 'Metamophous', cursive;
+
+	font-size: 20px;
+}
+#labels div#one{
+	position: absolute;
+	transform-origin: center;
+	right: 25%;
+	top: 10%;
+	color: #7f521a;
+}
+#labels div#two{
+	position: absolute;
+	right: 10%;
+	top: 25%;
+	color: #7f521a;
+}
+#labels div#three{
+	position: absolute;
+	right: 4%;
+	top: 45%;
+	color: #7f521a;
+}
+#labels div#four{
+	position: absolute;
+	right: 10%;
+	bottom: 25%;
+	color: #7f521a;
+}
+#labels div#five{
+	position: absolute;
+	right: 25%;
+	bottom: 10%;
+	color: #7f521a;
+}
+#labels div#six{
+	position: absolute;
+	left: 48%;
+	bottom: 2%;
+	color: #7f521a;
+}
+#labels div#seven{
+	position: absolute;
+	left: 25%;
+	bottom: 10%;
+	color: #7f521a;
+}
+#labels div#eight{
+	position: absolute;
+	left: 10%;
+	bottom: 25%;
+	color: #7f521a;
+}
+#labels div#nine{
+	position: absolute;
+	left: 4%;
+	top: 45%;
+	color: #7f521a;
+}
+#labels div#ten{
+	position: absolute;
+	left: 10%;
+	top: 25%;
+	color: #7f521a;
+}
+#labels div#eleven{
+	position: absolute;
+	left: 25%;
+	top: 10%;
+	color: #7f521a;
+}
+#labels div#twelve{
+	position: absolute;
+	right: 45%;
+	top: 2%;
+	color: #7f521a;
+}
+#analogClock div#minutes{
+	height: 130px;
+	width: 5px;
+	margin-right: 0px;
+	position: absolute;
+	background-color: #000;
+	transform-origin: 50% 1%;
+	transform: rotate(180deg);
+	top: 50%;
+	left: 50%;
+
+}
+#analogClock div#hours{
+	height: 100px;
+	width: 10px;
+	margin-right: 0px;
+	position: absolute;
+	background-color: #000;
+	transform-origin: 50% 1%;
+	transform: rotate(180deg);
+	top: 50%;
+	left: 50%;
+
+}
+#analogClock div#seconds{
+	height: 145px;
+	width: 1px;
+	margin-right: 0px;
+	position: absolute;
+	background-color: #ba0303;
+	transform-origin: 50% 1%;
+	transform: rotate(180deg);
+	top: 50%;
+	left: 50%;
+}
